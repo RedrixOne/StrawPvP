@@ -1,0 +1,31 @@
+main: com.redrixone.Main
+name: StrawPvP
+version: 1.0
+commands:
+  kit:
+    description: Comando pazzo per givvare kit
+    usage: /<command>
+  help:
+    description: Gui aiuto
+    usage: /<command>
+  bal:
+    description: Soldi
+    usage: /<command>
+  shop:
+    description: Apri lo shop
+    usage: /<command>
+  cestino:
+    description: Cestino
+    usage: /<command>
+  spawn:
+    description: Spawn
+    usage: /<command>
+  fly:
+    description: fly
+    usage: /<command>
+  gmc:
+    description: gmc
+    usage: /<command>
+  gms:
+    description: gms
+    usage: /<command>
