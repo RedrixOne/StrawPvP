@@ -70,7 +70,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ShopListener(), this);
         getServer().getPluginManager().registerEvents(new DeathMessages(), this);
         //getServer().getPluginManager().registerEvents(new FallDamageListener(), this);
-        getCommand("spawn").setExecutor(new SpawnCommand());
+        getCommand("spawn").setExecutor(new SpawnCommand(combatManager));
         getCommand("kit").setExecutor(new KitCommand(this));
         getCommand("cestino").setExecutor(new Cestino());
         getCommand("help").setExecutor(new HelpCommand());
